@@ -1,0 +1,84 @@
+<style>
+  #R-logo svg,
+  #R-logo svg * {
+    color: #282828;
+    color: var(--MENU-SECTIONS-BG-color);
+    fill: #282828 !important;
+    fill: var(--MENU-SECTIONS-BG-color) !important;
+    opacity: .945;
+  }
+  a#R-logo {
+    color: #282828;
+    color: var(--MENU-SECTIONS-BG-color);
+    font-family: 'Work Sans', 'Helvetica', 'Tahoma', 'Geneva', 'Arial', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 300;
+    margin-top: -.8125rem;
+    max-width: 60%;
+    text-transform: uppercase;
+    width: 14.125rem;
+    white-space: nowrap;
+  }
+  a#R-logo:hover {
+    color: #282828;
+    color: var(--MENU-SECTIONS-BG-color);
+  }
+  #R-logo svg {
+    margin-bottom: -1.25rem;
+    margin-inline-start: -2rem;
+    margin-inline-end: .5rem;
+    width: 40.5%;
+  }
+  @media only all and (max-width: 59.999rem) {
+    a#R-logo {
+      font-size: 1.5625rem;
+      margin-top: -.1875rem;
+    }
+    #R-logo svg {
+      margin-bottom: -.75rem;
+      margin-inline-start: -2rem;
+      margin-inline-end: .5rem;
+    }
+  }
+  @media all and (-ms-high-contrast:none) {
+    {{ "/* IE11s understanding of positioning is weird at best */" | safeCSS }}
+    a#R-logo {
+      margin-top: -3.625rem;
+    }
+    #R-logo svg {
+      margin-bottom: -3.875rem;
+      margin-left: -2rem;
+      margin-right: .5rem;
+    }
+  }
+  @media only all and (-ms-high-contrast:none) and (max-width: 59.999rem) {
+    #R-logo svg {
+      margin-left: -2rem;
+      margin-right: .5rem;
+    }
+  }
+</style>
+<a id="R-logo" href="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" .Site.Home) }}">
+  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="60" height="60">
+    <g transform="translate(1 1)">
+      <g>
+        <g>
+          <path d="M14.366 13.855h9.31c0.621 0 1.035 -0.414 1.035 -1.035s-0.414 -1.035 -1.035 -1.035h-9.31c-0.621 0 -1.035 0.414 -1.035 1.035 0 0.621 0.414 1.035 1.035 1.035"/>
+          <path d="M10.228 19.027h13.448c0.621 0 1.035 -0.414 1.035 -1.035s-0.414 -1.035 -1.035 -1.035H10.228c-0.621 0 -1.035 0.414 -1.035 1.035s0.414 1.035 1.035 1.035"/>
+          <path d="M10.228 24.2h9.31c0.621 0 1.035 -0.414 1.035 -1.035s-0.414 -1.035 -1.035 -1.035H10.228c-0.621 0 -1.035 0.414 -1.035 1.035s0.414 1.035 1.035 1.035"/>
+          <path d="M23.676 27.303h-9.31c-0.621 0 -1.035 0.414 -1.035 1.035s0.414 1.035 1.035 1.035h9.31c0.621 0 1.035 -0.414 1.035 -1.035s-0.414 -1.035 -1.035 -1.035"/>
+          <path d="M10.228 34.545h13.448c0.621 0 1.035 -0.414 1.035 -1.035s-0.414 -1.035 -1.035 -1.035H10.228c-0.621 0 -1.035 0.414 -1.035 1.035s0.414 1.035 1.035 1.035"/>
+          <path d="M36.09 19.027h9.31c0.621 0 1.035 -0.414 1.035 -1.035s-0.414 -1.035 -1.035 -1.035h-9.31c-0.621 0 -1.035 0.414 -1.035 1.035s0.414 1.035 1.035 1.035"/>
+          <path d="M36.09 13.855h14.483c0.621 0 1.035 -0.414 1.035 -1.035s-0.414 -1.035 -1.035 -1.035H36.09c-0.621 0 -1.035 0.414 -1.035 1.035s0.414 1.035 1.035 1.035"/>
+          <path d="M50.573 32.476h-10.345c-0.621 0 -1.035 0.414 -1.035 1.035s0.414 1.035 1.035 1.035h10.345c0.621 0 1.035 -0.414 1.035 -1.035s-0.414 -1.035 -1.035 -1.035"/>
+          <path d="M36.09 29.372h9.31c0.621 0 1.035 -0.414 1.035 -1.035s-0.414 -1.035 -1.035 -1.035h-9.31c-0.621 0 -1.035 0.414 -1.035 1.035s0.414 1.035 1.035 1.035"/>
+          <path d="M36.09 24.2h14.483c0.621 0 1.035 -0.414 1.035 -1.035s-0.414 -1.035 -1.035 -1.035H36.09c-0.621 0 -1.035 0.414 -1.035 1.035s0.414 1.035 1.035 1.035"/>
+          <path d="M56.779 4.545h-1.862c-8.17 -2.757 -17.044 -2.791 -25.033 -0.005 -7.899 -2.786 -17.173 -2.752 -25.036 0.005H-0.117v45.517h37.241v7.241l5.172 -3.931 5.172 3.931v-7.241H59.883V4.545zM37.124 44.889h-4.138c1.448 -0.414 2.793 -0.828 4.138 -1.138zm-10.495 0H5.469c6.109 -2.684 13.212 -2.633 21.16 0m20.84 -1.964 0.038 0.004q3.702 0.468 6.79 1.857l0.207 0.103h-7.035zm6.828 -36.415 0.207 0.103h0.207v36c-3.066 -1.314 -6.452 -1.963 -10.148 -1.939 -2.114 -0.006 -4.332 0.226 -6.61 0.698l-0.066 0.017c-2.231 0.443 -4.554 1.091 -6.969 1.949V6.303c7.552 -2.379 15.931 -2.379 23.379 0.207m-48.931 0c7.345 -2.586 16.035 -2.69 23.483 -0.207v37.035a67.852 67.852 0 0 0 -1.08 -0.357c-8.206 -2.802 -15.646 -3.023 -22.099 -0.511a24.609 24.609 0 0 0 -0.613 0.247V6.613h0.207zm-3.414 0.103h1.035v38.276h-1.035zm0 41.379v-1.035h35.172v1.035zm43.448 5.172 -3.103 -2.276 -3.103 2.276v-9.828c2.172 -0.414 4.241 -0.517 6.207 -0.517v10.345m12.414 -5.172h-10.345v-1.035h10.345zm-1.035 -3.103V6.613h1.035v38.276z"/>
+        </g>
+      </g>
+    </g>
+  </svg>
+ compact
+ <br>
+ curriculum
+</a>
